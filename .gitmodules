@@ -3,7 +3,7 @@
 	url = git://github.com/libcxx4Nuttx/Nuttx.git
 [submodule "libcxx"]
 	path = libcxx
-	url = git://github.com/libcxx4Nuttx/nuttx_libcxx.git
+	url = git://github.com/libcxx4Nuttx/libcxx.git
 [submodule "libcxxabi"]
 	path = libcxxabi
 	url = git://github.com/libcxx4Nuttx/libcxxabi.git
