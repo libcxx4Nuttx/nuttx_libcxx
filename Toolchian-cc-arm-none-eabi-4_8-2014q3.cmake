@@ -11,7 +11,7 @@ CMAKE_FORCE_C_COMPILER(arm-none-eabi-gcc GNU)
 CMAKE_FORCE_CXX_COMPILER(arm-none-eabi-g++ GNU)
 
 # where is the target environment 
-SET(CMAKE_FIND_ROOT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../../../../NuttX/nuttx)
+SET(CMAKE_FIND_ROOT_PATH ${PROJECT_SOURCE_DIR}/../NuttX/nuttx)
 
 # search for programs in the build host directories
 SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
@@ -20,9 +20,3 @@ SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 SET(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
 SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 
-
-SET(COMMON_FLAGS "-mcpu=cortex-m4 -mthumb -march=armv7e-m -mfpu=fpv4-sp-d16 -mfloat-abi=hard")
-SET(CMAKE_CXX_FLAGS "${COMMON_FLAGS}")
-SET(CMAKE_C_FLAGS "${CMAKE_CXX_FLAGS}")
-set(CMAKE_EXE_LINKER_FLAGS "-Wl,-gc-sections ")
-set(TOOLCHAIN_INCLUDE_DIR /home/david_s5/gcc-arm-none-eabi-4_8-2014q3/arm-none-eabi/include)
