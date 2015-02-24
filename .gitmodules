@@ -1,9 +1,9 @@
 [submodule "NuttX"]
 	path = NuttX
-	url = https://github.com/libcxx4Nuttx/Nuttx.git
+	url = git://github.com/libcxx4Nuttx/Nuttx.git
 [submodule "libcxx"]
 	path = libcxx
-	url = https://github.com/libcxx4Nuttx/nuttx_libcxx.git
+	url = git://github.com/libcxx4Nuttx/nuttx_libcxx.git
 [submodule "libcxxabi"]
 	path = libcxxabi
-	url = https://github.com/libcxx4Nuttx/libcxxabi.git
+	url = git://github.com/libcxx4Nuttx/libcxxabi.git
