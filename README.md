@@ -1,7 +1,7 @@
 # nuttx_libcxx
 Top level structure to port libc++ to Nuttx 
 
-The current Toolchine used is arm-none-eabi-4_8-2014q3 from https://launchpad.net/gcc-arm-embedded
+The current Toolchain used is arm-none-eabi-4_8-2014q3 from https://launchpad.net/gcc-arm-embedded
 
 N.B. for libcxx master is the upstream master 
 Work will be done on the branch nuttx_libcxx 
